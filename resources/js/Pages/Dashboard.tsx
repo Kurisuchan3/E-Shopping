@@ -18,6 +18,7 @@ export default function Dashboard({
   currentMonthBestSelling: BestSellingProduct[];
   recentOrders: Order[];
 }) {
+  // Calculate total number of products
   const totalProducts = currentMonthBestSelling.length;
 
   return (
